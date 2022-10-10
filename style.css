@@ -90,6 +90,26 @@ nav {
   align-self: flex-start;
 }
 
+/* Features Section */
+.features {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.feature:hover {
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
 @media (max-width: 850px) {
   .hero {
     display: flex;
