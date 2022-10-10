@@ -90,6 +90,12 @@ nav {
   align-self: flex-start;
 }
 
+/* Divider */
+.divider {
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
 /* Features Section */
 .features {
   margin-top: 100px;
